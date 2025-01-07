@@ -1,0 +1,160 @@
+.boxz{
+        
+        
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.boxz.show {
+  opacity: 1;
+  transform: scale(1);
+}
+ 
+ 
+ .containner {
+  background-image: url(../cart7.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+.home-container{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding-top: 300px;
+  
+}
+.home-container .artical{
+  max-width: 800px;
+}
+.home-container .artical h1{
+  text-align: center;
+  max-width: 700px;
+  color: #ffff ;
+  font-size: 50px !important;
+  padding-bottom: 25px;
+  line-height: 80px;
+}
+.home-container .artical p{
+  color: #ffff;
+  max-width: 600px;
+  text-align: center;
+}
+/* <_______________________________________________> */
+section{
+  width: 100%;
+ min-height: 70vh;
+ padding: 80px 0;
+ background-color: #e0e7ed;
+}
+.text{
+  text-align: center;
+
+}
+.text h2{
+  font-size:35px;
+
+  padding: 15px 0;
+}
+.box .box1{
+  background-color: #ffff;
+  text-align: center;
+ padding: 35px;
+ width: 350px;
+ height: 200px;
+}
+.box .box1 i{
+  line-height: 30px;
+  font-size: 30px;
+  padding-top: 15px;
+  color: var(--main);
+}
+.box{
+  gap: 25px;
+  padding-top: 50px;
+}
+.box .box1 h2{
+  padding: 13px 0;
+  font-size: 18px;
+}
+.box .box1 p{
+  font-size: 14px;
+}
+.box1:hover{
+  background-color: var(--main);
+color: #ffff;
+transition: 0.5s;
+}
+.box1:hover i{
+  color: #ffff;
+}
+/* <_________________________________________________> */
+main{
+  min-height: 100vh;
+background-color: #ebf0f6;
+padding-top: 40px;
+}
+.contact{
+  width: 600px;
+  background-color:#ebf0f6;
+padding: 70px 50px 67px 50px;
+box-shadow: 0 0 14px #e0e7ed;
+
+}
+
+.ifram iframe{
+  width: 575px;
+  height: 575px;
+box-shadow: 0 0 14px #e0e7ed;
+
+}
+.contact input{
+  width: 96%;
+  border: none;
+  outline: none;
+  padding: 17px 10px;
+  margin: 10px;
+  background-color: #e0e7ed;
+}
+.main-ifram{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-top: 50px;
+}
+.contact input{
+
+}
+.input-flex input{
+  width:50%;
+ 
+
+}
+.input-flex{
+  display: flex;
+ 
+}
+textarea{
+  width: 96%;
+  border: none;
+  outline: none;
+  padding: 16px 10px;
+  margin: 10px;
+  background-color: #e0e7ed;
+
+
+
+}
+.btn-contact{
+  border: none;
+  outline: none;
+  background-color: var(--main);
+  color: #ffff;
+  padding: 12px 25px;
+  margin: 10px;
+}

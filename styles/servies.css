@@ -1,0 +1,244 @@
+.box {
+        
+        
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.box.show {
+  opacity: 1;
+  transform: scale(1);
+}
+ 
+ 
+ .containner {
+    background-image: url(../new16.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+  }
+  .home-container{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 300px;
+    
+  }
+  .home-container .artical{
+    max-width: 800px;
+  }
+  .home-container .artical h1{
+    text-align: center;
+    max-width: 700px;
+    color: #ffff ;
+    font-size: 50px !important;
+    padding-bottom: 25px;
+    line-height: 80px;
+  }
+  .home-container .artical p{
+    color: #ffff;
+    max-width: 600px;
+    text-align: center;
+  }
+  /* <_____________________________________> */
+  section{
+    min-height: 100vh;
+    padding: 100px 0;
+    background-color: #ebf0f6;
+  }
+  .boxes{
+gap: 60px;
+margin-top: 70px;
+  }
+  .tit  h1{
+font-size: 42px;
+  padding: 12px 0;
+text-align: center;  
+  }
+  .box1{
+    width: 350px;
+    background-color: #fffefe;
+    text-align: center;
+box-shadow: 0 0 7px rgb(223, 217, 217);
+border-radius: 13px;
+  }
+  .box1 .i1{
+    font-size: 40px;
+    line-height: 30px;
+    background-color:#ffff;
+   padding: 23px 20px;
+border-radius: 50% 50% 0 0;
+margin-top: -50px;
+color: var(--main);
+box-shadow: 0 0 12px rgb(223, 217, 217);
+  }
+  .box1 h2{
+    padding: 15px 0;
+  }
+  .box1 p{
+    font-size: 13px;
+    padding: 0 23px;
+    line-height: 22px;
+  }
+  .box1 .i2{
+    background-color:#ffff;
+    line-height: 23px ;                                                                                                                     
+    padding: 9px 14px;
+    border-radius: 50%;
+    margin: 25px 0;
+    color: var(--main);
+box-shadow: 0 0 12px rgb(236, 232, 232);
+
+  }
+  /* <_________________________________________________> */
+  main{
+    min-height: 80vh;
+    padding: 80px 0;
+    
+    background-color: #e0e7ed;
+  }
+   .img-asid img{
+    width: 70px;
+height: 70px;
+margin-right: 40px;
+  }
+  .img-asid p{
+    font-size: 14px;
+    max-width: 500px;
+   margin-top: 8px;
+
+  }
+   .img-asid{
+    margin-top: 30px;
+
+  }
+  .asid{
+    max-width: 650px;
+   
+    padding-top: 50px;
+  }
+  .asid h1{
+    padding: 12px 0;
+    font-size: 35px;
+  }
+  .serv-img1 img{
+    width: 530px;
+    height: 310px;
+    margin-top: 100px;
+    
+    
+  }
+  .serv-img1 p{
+padding: 8px 0;
+font-size:14px;
+  }
+  .serv{
+    background: linear-gradient(to left,  #e0e7ed 75%, var(--main) 25%);
+   
+  }
+  .serv{
+    display: flex;
+    align-items: start;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 38px;
+  }
+  /* <________________________________________________________> */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+  section{
+    min-height: 100vh;
+    background:#ebf0f6;
+   
+
+  }
+.border{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  
+  margin: 0;
+  font-family: Arial, sans-serif;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  width: 280px;
+  height: 280px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card .front,
+.card .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card .front {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .back {
+  background: #fff;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card .back h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.card .back p{
+  color: #555;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.card .back .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.card .back .social-icons a {
+  color: #3a8dff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.card .back .social-icons a:hover {
+  color: #6cc1ff;
+} 

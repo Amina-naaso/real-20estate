@@ -1,0 +1,294 @@
+@media(min-width:880px){
+
+ 
+
+
+    #btn-sider{
+        display: none;
+    }
+}
+
+
+
+
+
+@media(max-width:930px) {
+
+    main .table {
+        margin: 100px 20px 50px 20px !important;
+       
+    }
+
+}
+@media(max-width:380px){
+.bttn{
+    display: none;
+}
+}
+@media(max-width:470px) {
+.box select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(147, 152, 157);
+    width: 140px !important;
+    margin: 16px 0;
+    padding: 6px 0;
+    font-size: 14px;
+    color: rgb(147, 152, 157);
+    font-weight: 450;
+}
+ 
+main .table {
+    
+    padding: 60px 30px 40px 40px !important;
+   
+}
+}
+
+
+
+
+
+ .containerr{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../new15.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffff;
+}
+.containerr h1{
+font-size: 50px ;
+font-weight: 700;
+}
+.containerr p{
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.containerr p i{
+    padding-right:6px;
+    padding-left: 6px;
+
+}
+/* <________________________________________________________________> */
+main{
+    width: 100%;
+    min-height:30vh;
+}
+main .table{
+    
+    margin: 100px 100px 50px 100px;
+    padding: 60px 60px 40px 60px;
+    box-shadow: 0 0 4px #12345678;
+}
+.box i{
+    color: var(--main);
+}
+.box{
+   max-width: 290px ;
+}
+.box select{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(147, 152, 157);
+  width: 285px;
+  margin: 16px 0;
+  padding: 6px 0;
+  font-size: 14px;
+  color: rgb(147, 152, 157);
+  font-weight: 450;
+}
+.box  h3 i{
+    background-color: rgb(202, 213, 232);
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.check{
+    max-width: 620px;
+    padding: 20px 0;
+
+}
+.check label{
+    padding:0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.check-card{
+    margin-bottom: 10px;
+}
+/* <_____________________________________________________________________> */
+.card {
+    width:340px ;
+   
+    padding: 10px;
+   margin-top: 50px;
+  border: 1px solid #eae5e5;
+}
+.crott{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.card {
+    
+    position: relative;
+    display: inline-block;
+    
+}
+.card::after{
+    content: attr(data-discount);
+    position: absolute;
+    color:#ffff;
+    left: 30px;
+top: 260px;
+background-color: var(--sub);
+padding: 3px 12px;
+font-size: 15px;
+font-weight: 600;
+}
+
+
+
+.icon i{
+    margin: 8px 0;
+   background-color:rgba(0,0,0,0.2);
+   color:#fff;
+   border-radius: 50%;
+   padding:7px 9px;
+   line-height: 18px;
+   font-size: 15px;
+  }
+  .icon{
+      position: absolute;
+      top: 22%;
+      left: 88%;
+      transform: translate(-50%,-50%);
+      display: none;
+      font-size:19px;
+   
+  }
+  .card:hover .icon{
+      display: block;
+  }
+.card p{
+    margin: 0 !important;
+}
+.card h5{
+    margin: 0px !important;
+}
+.card img{
+    width: 320px;
+    height: 300px;
+}
+.card .card-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+}
+.card-reveiw{
+    padding-top: 15px;
+    
+}
+.card-reveiw h5{
+    font-size: 16px;
+    font-weight: 900;
+   padding-right: 8px;
+}
+.card-reveiw2{
+
+}
+.card-reveiw2 p{
+    font-weight: 600;
+   
+} 
+.card-reveiw .buton{
+    background-color: var(--main);
+    color: #ffff;
+    margin-bottom: 0px !important;
+    padding: 3px 8px;
+border-radius: 3px;
+   
+}
+.card h4{
+    padding: 13px 0;
+    font-weight: 650;
+    font-size: 20px;
+}
+.icon-card{
+    border: 1px solid #eae5e5;
+    padding:8px 0px ;
+    margin: 6px 0;
+}
+.card .icon-card p{
+    font-size: 14px;
+    color:var(--main);
+    font-weight: 600;
+   
+}
+.card .icon-card  .bat{
+   padding-right: 10px;
+   font-size: 18px;
+}
+.card-img p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-img{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.card-img .pp{
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.paddin{
+    padding: 0 10px;
+}
+
+/* __________________________________________ */
+.pagination h2{
+    padding: 8px 16px;
+    color: var(--main);
+    margin: 8px;
+    border: 2px solid var(--main);
+    font-size: 21px;
+}
+.pagination h2:hover{
+    background-color: var(--main);
+    color: #ffff;
+}
+.pagination h3:hover{
+    background-color: var(--main);
+    color: #ffff;
+}
+.pagination h3{
+    padding: 11px 15px;
+   
+    color: var(--main);
+    margin: 8px;
+    border: 2px solid var(--main);
+    
+    font-size: 16px;
+
+}
+.pagination{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+/* <_________________> */
+.copy .iconn i{
+    padding: 6px;
+    background-color: #ffff;
+    color: var(--sub);
+    font-size: 18px;
+    margin-left: 9px;
+    
+}
